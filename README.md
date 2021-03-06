@@ -1,2 +1,2 @@
 # rsschool-cv
- Markdown & Git
+ HTML, CSS & Git Basics
