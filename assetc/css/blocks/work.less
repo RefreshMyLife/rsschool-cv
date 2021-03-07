@@ -1,0 +1,76 @@
+// main: ../style.less
+.work{
+    margin-top: 50px;
+}
+.work__subtitle{
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: text-shadow .2s linear;
+    cursor: pointer;
+    
+    &:hover{
+        text-shadow:4px 4px 0px @gray-light,
+    }
+
+    
+}
+.work__col{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work__img{
+    display: block;
+    max-width: 370px;
+    max-height: 370px;
+}
+
+.work__item{
+    
+    width: 33.3333%;
+    width: 370px;
+    
+    border-radius: 0 0 10px 10px;
+    transition:box-shadow .2s linear;
+    &:hover{
+        box-shadow:0px 0px 25px fade(@gray,30%); 
+    }
+}
+
+.work__content{
+    
+    padding:0 1.26rem;
+    border: 1px solid fade(@gray,30%);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 0px 4px fade(@gray,30%);
+    border-top:none;
+    
+    text-transform: uppercase;
+    margin-top: 0;
+    top: 0;
+}
+
+.work__category{
+    padding-top: 0.8rem ;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.work__text{
+    padding: 0.8rem 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    
+    font-weight: 700;
+    font-size: 1.06rem;
+}

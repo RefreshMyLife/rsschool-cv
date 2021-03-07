@@ -1,0 +1,137 @@
+// main: ../style.less
+.intro{
+    margin: 1em 0;
+}
+.intro__inner{
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    
+    border-bottom: 1px solid fade(@gray,30%);
+    margin-bottom: 60px;
+   
+}
+.intro__content{
+    width: 50%;
+    margin: 6rem 0 ;
+}
+.intro__title{
+    font-size: 2.13rem;
+    font-weight: 200;
+   
+}
+.intro__name{
+    font-size: 3rem;
+    font-weight: 700;
+   
+}
+.intro__prof{
+    margin-top: 0.7rem;
+    
+    font-size: 1.2rem;
+    font-weight: 400;
+   
+    opacity: 30%;
+}
+.intro__link{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.intro__square{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 41px;
+    height: 41px;
+    margin-right: 10px;
+    
+    
+    &:hover{
+        box-shadow: 2px 2px white, 4px 4px @gray-light;
+        top: -4px;
+        left: -4px;
+    }
+}
+.intro__square a {
+    color:@white;
+}
+.intro__square--vk{
+    background-color: #007BB6;
+}
+.intro__square--google{
+    background-color: #DA1818
+}
+.intro__square--pinterest{
+    background-color: #E51A68;
+}
+.intro__square--yandex{
+    
+    background-color: #FC0000;
+}
+
+.intro__btn{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    
+    margin-top: 4rem;
+  
+}
+
+.intro__button :hover{
+    background-color: @black;
+    box-shadow: 1px 1px 5px @black;      
+}
+
+.intro__btn a{ 
+    padding: 1.2rem 3rem;
+    border: 2px solid @black;
+    border-radius: 30px;
+
+    
+    transition: background-color .2s linear,color .2s linear ;
+    
+    margin-right: 15px;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: @black;
+    font-weight: 400;
+    font-size: 1.06rem;
+    &:hover{
+        color:@white;
+    }
+    
+}
+.intro__photo{
+    padding-bottom: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 470px;
+    height: 500px;
+}
+.intro__photo img{
+    width: 470px;
+    height: 500px;
+    
+    right: 0;
+    bottom: 0;
+    padding-bottom: 0;
+    
+}
+
